@@ -1,3 +1,5 @@
+
+
 *{
     padding:0;
     margin: 0;
@@ -7,7 +9,9 @@
     font-size: 14px;
 }
 
+
 body{
+    
     width: 100%;
     min-height: 100vh;
     background-color: rgb(243,243,243);
@@ -16,6 +20,14 @@ body{
     display: flex;
     justify-content: center;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.dark-mode .grupo{
+      background-color: black;
+      color: white;
+  }
 
 .instagram-wrapper{
     display: flex;
@@ -128,6 +140,18 @@ body{
 .app-download:nth-child(2){
     background-image: url('./Imagens/playstore.png');
 }
+p.dark {
+    margin-left: 276px;
+    font-size: 11px;
+}
+.dark {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    display: initial;
+    /* margin-left: auto; */
+}
+
 
 /* tela midia*/
 
